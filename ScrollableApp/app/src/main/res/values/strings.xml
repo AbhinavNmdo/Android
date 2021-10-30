@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ScrollableApp</string>
+    <string name="textview">Textview</string>
+    <string name="button">Button</string>
+</resources>

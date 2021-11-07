@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Email Sender</string>
+    <string name="enter_what_to_send">Enter what to send</string>
+    <string name="subject">Subject</string>
+    <string name="send">Send</string>
+    <string name="what_to_send">What to send</string>
+    <string name="e_mail">E-mail</string>
+</resources>

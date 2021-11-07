@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MultiScreen">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="Second Activity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

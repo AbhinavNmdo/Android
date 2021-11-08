@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="todo">TODO</string>
+</resources>

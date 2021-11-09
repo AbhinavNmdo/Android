@@ -8,13 +8,13 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
     ListView listView;
-    String arr [] = {"Item1", "Item2", "Item3", "Item4"};
+    String arr [] = {"Item1", "Item2", "Item3", "Item4", "Item5", "Item6", "Item7", "Item8", "Item9", "Item10"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.listview);
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, arr);
-        listView.setAdapter(adapter);
+        AbhayAdapter abhay = new AbhayAdapter(this, R.layout.abhayadapter, arr);
+        listView.setAdapter(abhay);
     }
 }

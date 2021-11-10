@@ -26,7 +26,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         name2.setText(name);
         phone2.setText(phone);
-        email2.setText(email);
+        email2.setText(email    );
     }
 
 }
